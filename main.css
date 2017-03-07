@@ -9,11 +9,28 @@
 }
 
 .w-block {
-    transition: border 0.5s ease-in;
+    background-image: url(bg.jpg);
+    /*transition: border 0.5s ease-in;*/
     /*height: 25%;*/
 }
 .w-block.active {
-    border: dashed 10px brown;
+    /*border: dashed 10px brown;*/
     /*transition: all 0.5s ease-in;*/
     /*height: 25%;*/
+}
+
+.elem {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
 }
